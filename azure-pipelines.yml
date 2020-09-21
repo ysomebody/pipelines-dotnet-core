@@ -21,4 +21,4 @@ steps:
     codeCoverageTool: 'JaCoCo'
     summaryFileLocation: '"$(System.DefaultWorkingDirectory)/**/site/jacoco/jacoco.xml"'
     reportDirectory: '"$(System.DefaultWorkingDirectory)/**/site/jacoco"'
-    failIfCoverageEmpty: true
+    failIfCoverageEmpty: false
